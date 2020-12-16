@@ -62,12 +62,12 @@ a:hover, a:active
 	display: none;
 }
 
-/*section is block level and no width specidied therefore stretches full screen*/
+/*section is block level and no width specidied therefore stretches full screen
 #topBar
 {
 	background-color: #000;
 	height: 20px;
-}
+}*/
 
 /*Site Container*/
 /*This is essentially a box that we place the whole site in.  
@@ -85,8 +85,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*This is a flex container*/
 #mainHeader
 {
-	margin-top: 40px;
-	padding-bottom: 40px;
+	margin-top: 20px;
+	padding-bottom: 10px;
 	padding-top: 10px;
 	display: flex;
 	flex-direction: row;
@@ -96,8 +96,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 /*This is a flex item*/
 #logo
 {
-	width: 235px;
-	height: 108px;
+	width: 353px;
+	height: 162px;
 	margin-top: 10px;
 
 }
@@ -107,7 +107,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	width: 550px;
 	height: 25px;
 	margin-left: auto;
-	margin-top: 70px;
+	margin-top: 100px;
 
 }
 
@@ -199,16 +199,21 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #logoFooter
 {
 	/*styles the logo image to have spacing around it*/
+	padding: 0 0 0 0;
 	margin-top: 25px;
 	margin-bottom: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
+	width: 89px;
+	height: 40px;
 }
+
 
 #footerNav
 {
-	width: 500px;
+	/*width: 400px;*/
 	height: 25px;
-	margin-left: 20px;
+	/*margin-left: 10px;*/
+	margin-top: 75px;
 }
 
 #footerNav ul
@@ -238,8 +243,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	height: 60px;
 	margin-left: auto;
-	margin-top: 20px;
-	margin-right: 10px;
+	margin-top: 50px;
+	margin-right: 5px;
 
 }
 
@@ -275,8 +280,10 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #copyRight 
 {
+	color: #000;
 	margin-left: auto;
-	width: 250px;
+	width: 150px;
+	margin-top: 90px;
 }
 /*Page 2 - Notice we are using one style sheet for all of the pages*/
 
