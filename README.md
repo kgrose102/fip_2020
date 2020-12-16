@@ -2,8 +2,6 @@
 
 final integrated website project 
 
-## Prerequisites
-
 ## Usage
 
 Clone the project, navigate to the correct directory -<code>cd directory name</code>- and open the index.html file
