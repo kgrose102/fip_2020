@@ -4,7 +4,7 @@
 /*Remove this rule, this is only for demo purposes to make the boxes black with white text
 The line height on the <p> tag gives each box a height value*/
 
-p
+/*p
 {
 	color: #fff;
 	line-height: 100px;
@@ -12,7 +12,7 @@ p
 	text-align: center;
 	margin: 0;
 }
-
+*/
 /*basic reset*/
 /*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
 
@@ -154,21 +154,17 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
   	justify-content: flex-start;
 }
 
-/*Get rid of this, here just to give different height to promo*/
-#promo p 
+#promoImage 
 {
-	line-height: 250px;
+
 }
 
 #promoText 
 {
-	width: 600px;
-}
-
-#promoImage 
-{
-	margin-left: auto;
 	width: 280px;
+	margin-left: auto;
+	background-color: #e1f5fe;
+	padding: 10px 15px 15px 15px;
 }
 
 #productInfo 
@@ -184,7 +180,27 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 .productDesc 
 {
-	width: 200px;
+	width: 180px;
+	background-color: #e1f5fe;
+	padding: 10px 10px 15px 10px;
+}
+
+.resBut
+{
+	display: block;
+	width: 100px;
+	padding: 15px;
+	color: #FFF;
+	background-color: #61a3c1;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.resBut:hover
+{
+	background-color: #3f6e84;
 }
 
 #mainFooter 
@@ -213,7 +229,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	/*width: 400px;*/
 	height: 25px;
 	/*margin-left: 10px;*/
-	margin-top: 75px;
+	margin-top: 55px;
 }
 
 #footerNav ul
@@ -243,7 +259,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	height: 60px;
 	margin-left: auto;
-	margin-top: 50px;
+	margin-top: 35px;
 	margin-right: 5px;
 
 }
@@ -317,37 +333,32 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 #productImages 
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 }
 
-/*Get rid of this, here just to give different height*/
-#productImages p
-{
-	line-height: 250px;
-}
 
 .productImg 
 {
 	width: 280px;
 }
 
-
 #contentAreaBig
 {
-	margin-top: 40px;
-	border-bottom: solid 1px #DDD;
+	margin-top: 10px;
 	padding-bottom: 40px;
 }
 
-/*Get rid of this, here just to give different height*/
-#contentAreaBig p 
+#contentAreaBig p
 {
-	line-height: 300px;
+	padding: 15px 10px 15px 20px;
+	font-size: 20px;
+	background-color: #e1f5fe;
+	margin-bottom: 10px;
+	margin-left: auto;
 }
 
 #promoImageBig
